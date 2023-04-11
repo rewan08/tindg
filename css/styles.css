@@ -1,0 +1,190 @@
+body{
+    font-family: "Montserrat";
+    text-align: center;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    
+}
+
+
+h1,h2,h3 {  font-family: "Montserrat"; 
+     font-size: 3rem;  
+     line-height: 1.5; 
+   font-weight: 700;
+ 
+}
+
+
+.colored-section{
+    background-color:hsl(351, 76%, 69%);
+    color: white;
+} 
+
+
+.white-section{
+    background-color: #fff;
+}
+ 
+
+.container-fluid{
+    padding: 3% 8% ;}
+
+
+                  /* navigation bar */
+
+.navbar{padding-bottom:4.4rem;}
+
+.navbar-brand{
+font-family: "Ubuntu";
+font-size: 2.5rem;
+font-weight:400;
+padding-left: 4rem;
+}
+.nav-item{
+    padding: 0 40px;
+   
+}
+.nav-link{
+font-size: 1.1rem;
+font-family: "Montserrat";
+}
+
+
+               /* dowload buttons */
+.press{
+    padding-left: 12.5rem;
+}
+.download-button{
+
+    margin: 5% 3% 5% 0;
+   
+}
+
+                /* title image */
+.big-heading{
+    padding-left: 12.5rem;
+    
+}
+#title{
+    background-color: hsl(351, 100%, 68%);
+    color: white;
+    text-align: left;
+  
+}
+
+
+ .title-image{
+
+    width: 70%;
+   position:relative;
+    left: 20%;
+   
+
+}
+
+                /* features */
+.header-features{font-size: 1.1rem;
+
+}
+#features{ padding:7% 14%;  
+}
+.feature-box{
+    
+    padding:6%;
+}
+.p{
+    color: #8f8f8f;
+    font-family:"Montserrat" ;
+    font-size: 14px;
+}
+ 
+            /* font awesome icons */
+
+
+.medium{
+    font-size: 50px;
+    line-height: 1.5;   
+}
+.icon{
+    margin-bottom: 1rem;
+    color:hsl(351, 100%, 65%)
+}
+.icon:hover{
+    color:#f86f83da;
+}
+
+
+                /* testimonial */
+#testimonials{
+    padding: 7% 14%;
+}
+.testimonial-image{
+    width: 9%;
+    border-radius: 100%;
+    margin: 15px;
+}
+
+    .press-logo{
+        width:15%;
+        margin: 20px 20px 50px;
+    }
+    
+                     /* pricing */
+.header-pricing{
+    font-size: 1.1rem; 
+}
+#pricing{
+        padding: 100px;
+      
+    }
+.pricing-column{
+        padding: 3% 2%;
+    }
+   
+    @media (max-width:991px){
+        h1{
+            text-align:cente;
+        }
+        .press{text-align: cente;}
+        
+ .title-image{
+
+    width: 50%;
+    position: relative;
+left: 40%;
+    }
+}   
+@media (max-width: 1069px ),(min-width: 992px){
+    .title-image{
+       
+        position: relative;
+       bottom: 0em;
+        }
+        .press{text-align: center;
+        padding-left: 0%;}
+       .big-heading{
+       padding-left:6rem;
+    }
+}
+               /* cta */
+    #cta{
+        
+        padding: 10% 18% 13%;
+    }
+    .second-buttons{
+        margin-top: 2rem;
+    }
+    .header2{
+        color: #fff;
+    }
+    #footer{
+       
+        padding: 1%;
+    }
+    .copyright{
+      font-weight: 370;
+      font-size: 14px;
+        padding-top: 1rem;
+    }
+    .brand{
+        padding-right: 1rem;
+    }
